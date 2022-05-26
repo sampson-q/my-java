@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="390.0" prefWidth="485.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="415.0" prefWidth="529.0">
+      <children>
+      
+          <Label fx:id="welcomeText" layoutX="66.0" layoutY="64.0" text="Are you an idiot?">
+            <font>
+               <Font name="Cooper Black" size="36.0" />
+            </font>
+         </Label>
+          <Button fx:id="yesButton" layoutX="110.0" layoutY="140.0" onAction="#onYesButtonClick" text="Yes">
+            <font>
+               <Font size="14.0" />
+            </font></Button>
+         <Button fx:id="noButton1" layoutX="287.0" layoutY="140.0" onAction="#noButton1Click" text="No">
+            <font>
+               <Font size="14.0" />
+            </font></Button>
+         <Button fx:id="noButton2" layoutX="354.0" layoutY="160.0" onAction="#noButton2Click" text="No" visible="false">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="noButton3" layoutX="255.0" layoutY="208.0" onAction="#noButton3Click" text="No" visible="false">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="noButton4" layoutX="237.0" layoutY="155.0" onAction="#noButton4Click" text="No" visible="false">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="noButton5" layoutX="324.0" layoutY="208.0" onAction="#noButton5Click" text="No" visible="false">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+      </children>
+   </Pane>
+</VBox>
