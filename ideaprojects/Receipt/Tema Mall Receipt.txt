@@ -1,0 +1,17 @@
+
+-/-	The Only Habour City Mall	-/-
+=====================================
+Customer: Lord Nana Mante Victor
+Contact Number: 3423
+Order Date: 03 - May - 5023
+-------------------------------------
+Items	Qty	Unit/Price	Sub-Total
+Shirts	60	$50.0		$3000.0
+Skirts	0	$25.0		$0.0
+Scarfs	20	$15.0		$300.0
+-------------------------------------
+Number of Items: 80
+Total Order: $3300.0
+Total Discount: $825.0
+=====================================
+Created by Hash 👽, ##4545
